@@ -16,6 +16,8 @@ class School
     @roster[arg]
   end
   def sort(arg)
-    @roster[arg].sort
+    @roster.each do |grade,name|
+      name.sort!
+    end
   end
 end
