@@ -15,4 +15,7 @@ class School
   def grade(arg)
     @roster[arg]
   end
+  def sort(arg)
+    @roster[arg].sort
+  end
 end
