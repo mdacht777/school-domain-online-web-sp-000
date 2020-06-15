@@ -1,8 +1,11 @@
 # code here!
 class School
+  ROSTER={}
   def initialize(name)
     @name=name
   end
-  ROSTER={}
-  def roster
+  def roster=(arg)
+    @roster = arg
+    ROSTER << arg 
+  end
 end
