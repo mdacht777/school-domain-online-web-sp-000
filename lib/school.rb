@@ -5,8 +5,7 @@ class School
   def initialize(name)
     @name=name
   end
-  def roster=(arg)
-    @roster = arg
-    ROSTER << arg 
+  def roster
+    {}
   end
 end
